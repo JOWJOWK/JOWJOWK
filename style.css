@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background:  linear-gradient(68.15deg, #1f1f1f 16.62%, #444444 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;    
+}
+
+.cabecalho-logo {
+    max-height: 75px;
+    max-width: 75px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #2F2325;
+    font-weight: 400;
+    background: #a3a1a0;
+    width: 120%;
+    height: 120%;
+    border-radius: 10px;
+    border: none;
+}
+
+.cabecalho-menu-item:hover {
+    color: #cfcfcf;
+    background-color: #1f1f1f;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #cfcfcf;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    color: #cfcfcf;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #cfcfcf;
+    font-weight: 400;
+}
+
+.conteudo-principal-imagem {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #cfcfcf;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: #cfcfcf;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #cfcfcf;
+    font-weight: 400;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #cfcfcf;
+}
+
+.rodape-imagem {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
